@@ -1,0 +1,10 @@
+#pragma once
+
+namespace Chlorine::Lexer {
+	enum class TokenType {
+		LITERAL_INT, LITERAL_FLOAT, LITERAL_STRING, LITERAL_CHAR,
+		KEYWORD, IDENTIFIER,
+		OPERATOR, PUNCTUATION, PARENTHESIS,
+		END_OF_FILE
+	};
+}
