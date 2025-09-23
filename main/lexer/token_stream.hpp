@@ -14,5 +14,8 @@ namespace Chlorine::Lexer {
 		uint64_t pos = 0;
 		uint64_t line = 1;
 		uint64_t column = 1;
+
+		[[nodiscard]] char Peek();
+		char Consume();
 	};
 }
