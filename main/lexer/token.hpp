@@ -14,5 +14,7 @@ namespace Chlorine::Lexer {
 		uint64_t column;
 
 		Token(TokenType type, std::string lexeme, uint64_t line, uint64_t column);
+
+		std::string ToString() const;
 	};
 }
