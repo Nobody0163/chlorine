@@ -6,7 +6,7 @@
 
 namespace Chlorine::Lexer {
 	std::vector<std::string> keywords = {
-		"abstract", "bool", "break", "case", "char", "class", "continue", "default", "else", "f32", "f64", "false", "for", "function", "i8", "i16", "i32", "i64", "if", "import", "null", "private", "public", "return", "self", "string", "switch", "true", "u8", "u16", "u32", "u64", "void", "while", 
+		"abstract", "bool", "break", "case", "char", "class", "continue", "default", "else", "f32", "f64", "false", "for", "function", "i8", "i16", "i32", "i64", "if", "import", "null", "private", "public", "return", "self", "string", "switch", "true", "u8", "u16", "u32", "u64", "void", "while"
 	};
 
 	std::vector<std::string> operators = {
