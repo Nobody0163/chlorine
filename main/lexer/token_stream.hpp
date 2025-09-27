@@ -32,6 +32,4 @@ namespace Chlorine::Lexer {
 		Token Parenthesis();
 		Token Identifier();
 	};
-
-	
 }
